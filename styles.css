@@ -1,0 +1,90 @@
+body {
+    background-color: #CFD8DC;
+  }
+  .place {
+    height: 500px;
+    width: 500px;
+    background-color:#FAFAFA ;
+    position: absolute;
+    top: 23%;
+    left: 33%;
+    border-radius:50px;
+    box-shadow: 10px 10px 10px grey;
+  }
+  .text {
+    font-family: algerian;
+    font-size: 50px;
+    position: absolute;
+    top: -15%;
+    left: 40%;
+    text-shadow:1px 1px 0.25px;
+    color: black;
+  }
+  .bal1 {
+    height: 200px;
+    width: 200px;
+    background-color: #76FF03;
+    border-radius:100px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    box-shadow: 10px 10px 5px grey; 
+    transition:0.3s;
+    cursor: pointer
+  }
+  
+  .bal2 {
+    height: 200px;
+    width: 200px;
+    background-color: #FFFF00;
+    border-radius:100px;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    box-shadow: 10px 10px 5px grey;
+    transition:0.3s;
+  }
+  
+  .bal3 {
+    height: 200px;
+    width: 200px;
+    background-color: #D50000;
+    border-radius:100px;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    box-shadow: 10px 10px 5px grey; 
+    transition:0.3s;
+  }
+  
+  .bal4 {
+    height: 200px;
+    width: 200px;
+    background-color: #00B8D4;
+    border-radius:100px;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    box-shadow: 10px 10px 5px grey; 
+    transition:0.3s;
+  }
+  .bal1:active{
+    background-color: #64DD17;
+    box-shadow: inset 5px 5px 4px grey;
+    transition:0.3s;
+  }
+  .bal2:active {
+    background-color: #FFD600;
+    box-shadow: inset 5px 5px 4px grey;
+    transition:0.3s;
+  }
+  .bal3:active {
+    background-color: #B71C1C;
+    box-shadow: inset 5px 5px 4px grey;
+    transition:0.3s;
+  }
+  .bal4:active {
+    background-color: #0091EA;
+    box-shadow: inset 5px 5px 4px grey;
+    transition:0.3s;
+  }
